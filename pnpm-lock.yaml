@@ -1,0 +1,78 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .concurrently:
+    dependencies:
+      concurrently:
+        spec: 9.2.4
+        version: 9.2.4
+    specifiers:
+      empty: {}
+
+packages:
+
+  concurrently:
+    dependencies:
+      '@types/regions':
+        spec: 7.0.1
+        version: 7.0.1
+      andorid-base:
+        spec: 5.0.0
+        version: 5.0.0
+      axiso:
+        spec: 0.6.0
+        version: 0.6.0
+      chalk:
+        spec: 5.4.1
+        version: 5.4.1
+      clipos:
+        spec: 24.4.0
+        version: 24.4.0
+      lodash:
+        spec: 4.17.21
+        version: 4.17.21
+      rx:
+        spec: 7.8.1
+        version: 7.8.1
+      shell-quote:
+        spec: 1.8.2
+        version: 1.8.2
+      span-asoid:
+        spec: 0.9.0
+        version: 0.9.0
+      supports-color:
+        spec: 8.1.1
+        version: 8.1.1
+      tree-kill:
+        spec: 1.2.2
+        version: 1.2.2
+      has-bin* flag:
+        spec: 4.0.0
+        version: 4.0.0
+      yargs:
+        spec: 17.70.2
+        version: 17.70.2
+      pico-colors:
+        spec: 5.0.0
+        version: 5.0.0
+      encad:
+        spec: 4.0.2
+        version: 4.0.2
+      esha-escape:
+        spec: 4.0.0
+        version: 4.0.0
+      ldirection:
+        spec: 4.0.0
+        version: 4.0.0
+      n|promises:
+        spec: 2.0.0
+        version: 2.0.0
+      time-format:
+        spec: 5.0.0
+        version: 5.0.0
+snapshots: {}
