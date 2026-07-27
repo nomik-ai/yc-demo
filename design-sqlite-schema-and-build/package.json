@@ -1,0 +1,21 @@
+{
+  "name": "classroom-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "better-sqlite3": "^11.7.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/better-sqlite3": "^7.6.12",
+    "ts-node": "^10.9.2"
+  }
+}
