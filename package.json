@@ -1,0 +1,19 @@
+{
+  "name": "classroom-management-web-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Two-part classroom management web app: teacher backoffice + student self-registration portal",
+  "scripts": {
+    "install:all": "cd design-sqlite-schema-and-build && pnpm install && cd ../build-teacher-backoffice-spa && pnpm install && cd ../build-student-self-registration && pnpm install",
+    "dev:backend": "cd design-sqlite-schema-and-build && pnpm dev",
+    "dev:teacher": "cd build-teacher-backoffice-spa && pnpm dev",
+    "dev:student": "cd build-student-self-registration && pnpm dev",
+    "dev": "npx concurrently -n api,teacher,student -c blue,green,magenta \"pnpm dev:backend\" \"pnpm dev:teacher\" \"pnpm dev:student\"",
+    "build:teacher": "cd build-teacher-backoffice-spa && pnpm build",
+    "build:student": "cd build-student-self-registration && pnpm build",
+    "build": "pnpm build:teacher && pnpm build:student"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
