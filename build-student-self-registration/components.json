@@ -1,0 +1,14 @@
+{
+  "type": "library",
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "src/index.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@styles/components",
+    "utils": "@styles/lib/utils"
+  }
+}
