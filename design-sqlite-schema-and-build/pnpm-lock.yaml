@@ -1,0 +1,62 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      cors:
+        spec: ^2.8.5
+        version: 2.8.5
+      express:
+        spec: ^4.21.0
+        version: 4.21.0
+      better-sqlite3:
+        spec: ^11.7.0
+        version: 11.7.0
+      typescript:
+        spec: ^5.7.3
+        version: 5.7.3
+    devDependencies:
+      @types/cors:
+        spec: ^2.8.17
+        version: 2.8.17
+      @types/express:
+        spec: ^5.0.0
+        version: 5.0.0
+      @types/better-sqlite3:
+        spec: ^7.6.12
+        version: 7.6.12
+      ts-node:
+        spec: ^10.9.2
+        version: 10.9.2
+
+packages:
+
+  /cors@2.8.5:
+    resolution: {integrity: sha512-nftDtW4tV4wOrHQLY5iQoGZrFZrtZXN+Bif12tHsKd5Z/hY5jZtCb8hQ+ttfGXpeRAcHXIm+EhLFW2TJMTl0Uw==, engine: {node: '>=0.10'}}
+
+  /express@4.21.0:
+    resolution: {integrity: sha512-Erk7UXmkGrkQCkBxmC2njU8KafY3romm62pfMjUIorL01ihXWdGflpN8kmLE28C7au3LNOXeNeWxmKM9NchU==, engine: {node: '>=0.10.0'}}
+
+  /better-sqlite3[11.7.0:
+    resolution: {integrity: sha512-Hbgqfl/JqwiCADv31RjpscRo/d6Av0ENINk6p5P6DosevWADhic4e2WGp94sWpt1/2BgEwVsUbS+ZSAiXXnDa0==, engine: {node: '>=0.10.0'}}
+
+  /typescript@5.7.3:
+    resolution: {integrity: sha512-c3LckuBzWwN4hwCkSsIia4Clmf9dtdkfGrub8F7mjoppMAeD2NoJiQAGFzZnaBExd7Ex2mwT3LbzFRRlaFo8lg==, engine: {node: '>=0.10.0'}}
+
+  /@types/cors@2.8.17:
+    resolution: {integrity: sha512-Ubxr+OuSHRDTN6lJCqqU4zyafoD24YyKdOgAgFZyBezXSiGb4w/FLr8hPwNEydgVqnmIN7OP8+Sr/ldgwmrTA==}
+
+  /@types/express@5.0.0:
+    resolution: {integrity: sha512-Qr0GVuqkhjoRdaq/GncmWME/Nz1AFeky9U5eFJ6PWdL21TSE2FlhPr49snArkQxQ0WQNnWB4FkoK4F7MX0mt55CA==}
+
+  /@types/better-sqlite3[7.6.12:
+    resolution: {integrity: sha512-QmPygfbjQUrj1YoF730EGpM2mChBGwAacDkgzx84ZFmYLN35QiUJB0nZXz7SHb4NxMdMONQ7SERSWJp+hPl1FQ==}
+
+  /ts-node@10.9.2:
+    resolution: {integrity: sha512-5hoJNINWImZMly3guIWQNjaWIBcDgt1mIc2VCSToVGlZVVhVUGOPEaOlCf+pGLriTGlnlOZ049+ISMLEmjTLRTA==
+
